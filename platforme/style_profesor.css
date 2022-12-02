@@ -1,0 +1,25 @@
+body {
+    background-image: url('poze/background_profesor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aplicatie{
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100%;
+}
+
+.content{
+    width: 1000px;
+    font-family: s-font-sharpsans;
+    
+}
+
+@font-face {
+    font-family: s-font-sharpsans;
+    src: url(/fonts/samsungsharpsans.otf);
+}
